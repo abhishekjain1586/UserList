@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.anz.users_presentation"
+    namespace = "com.anz.presentation"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -65,6 +65,9 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
 
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

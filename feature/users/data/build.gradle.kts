@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.anz.users_data"
+    namespace = "com.anz.data"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -53,5 +53,8 @@ dependencies {
     implementation(libs.retrofit2.retrofit)
 
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
 }

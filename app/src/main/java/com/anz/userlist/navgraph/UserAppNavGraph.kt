@@ -3,10 +3,10 @@ package com.anz.userlist.navgraph
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import com.anz.users_presentation.route.UserDetailRoute
-import com.anz.users_presentation.route.UserListRoute
-import com.anz.users_presentation.route.userDetailDestination
-import com.anz.users_presentation.route.userListDestination
+import com.anz.presentation.route.UserDetailRoute
+import com.anz.presentation.route.UserListRoute
+import com.anz.presentation.route.userDetailDestination
+import com.anz.presentation.route.userListDestination
 
 @Composable
 fun UserAppNavGraph(navController: NavHostController) {

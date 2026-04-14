@@ -47,6 +47,9 @@ okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHt
 okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttp" }
 retrofit2-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit2-converter-kotlinx-serialization = { group = "com.squareup.retrofit2", name = "converter-kotlinx-serialization", version.ref = "converterKotlinxSerialization" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutineTest" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -55,4 +58,3 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 jetbrains-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serialization" }
 kotlinAndroidKsp = { id = "com.google.devtools.ksp", version.ref ="kspVersion" }
 dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-

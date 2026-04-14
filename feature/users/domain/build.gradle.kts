@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.anz.users_domain"
+    namespace = "com.anz.domain"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -42,5 +42,8 @@ dependencies {
     ksp(libs.dagger.hilt.compiler)
 
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
 }
