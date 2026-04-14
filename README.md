@@ -14,7 +14,8 @@ Android application that fetches and displays a list of users from a remote REST
 | <img src="media/user_list_screen.png" width="180"/> | <img src="media/user_detail_screen.png" width="180"/> |
 
 **Demo Recording**
-> `![App Demo](media/demo.gif)`
+<img src="media/demo.gif" width="180">
+> `![App Demo](media/demo.gif)` 
 
 ---
 
