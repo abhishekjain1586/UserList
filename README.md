@@ -289,6 +289,8 @@ The app handles all four states explicitly:
 
 | Area | Improvement |
 |---|---|
+| **Offline support** | Add Room database as a local data source |
+| **Empty state UI** | Dedicated empty state composable with an illustration when the user list returns empty |
 | **Shared `:core:model`** | Extract `User` to a `:core:model` module if a second feature (e.g. `:feature:profile`) needs it |
 
 ---
