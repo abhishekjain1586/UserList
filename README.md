@@ -6,12 +6,15 @@ Android application that fetches and displays a list of users from a remote REST
 
 ## 📸 Screenshots & Demo
 
+> Add your screenshots and screen recording here after running the app on a device or emulator.
+> Suggested structure — replace placeholders with your actual assets committed inside a `/screenshots` folder.
+
 |                   User List Screen                   |                   User Detail Screen                   |
 |:----------------------------------------------------:|:------------------------------------------------------:|
 | <img src="media/user_list_screen.png" width="180"/> | <img src="media/user_detail_screen.png" width="180"/> |
 
 **Demo Recording**
-> <video src="media/video.webm" controls="controls" style="max-width: 100%;" />
+> `![App Demo](media/demo.gif)`
 
 ---
 
